@@ -1,0 +1,210 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    background:#050816 url("assets/background.png") center/cover no-repeat fixed;
+    color:white;
+    text-align:center;
+    font-family:'Courier New', monospace;
+}
+
+
+h1{
+
+    margin-top:30px;
+    color:#00ffff;
+
+}
+
+
+p{
+
+    color:#aaa;
+    margin:15px;
+
+}
+
+
+
+#game{
+    width:900px;
+    height:350px;
+    margin:40px auto;
+    position:relative;
+    overflow:hidden;
+
+    background:rgba(0,0,0,0.25);
+
+    border:2px solid cyan;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 0 25px cyan;
+}
+
+
+
+/* Robot */
+#player{
+
+position:absolute;
+bottom:30px;
+left:100px;
+
+}
+
+
+#player img{
+
+width:80px;
+
+height:80px;
+
+border-radius:50%;
+
+object-fit:cover;
+
+border:3px solid cyan;
+
+box-shadow:
+0 0 25px cyan;
+
+}
+
+
+
+.jump{
+
+    animation:jump 0.6s;
+
+}
+
+
+
+@keyframes jump{
+
+
+0%{
+
+bottom:30px;
+
+}
+
+
+50%{
+
+bottom:150px;
+
+}
+
+
+100%{
+
+bottom:30px;
+
+}
+
+
+}
+
+
+
+/* Battery obstacle */
+
+#obstacle{
+
+position:absolute;
+
+bottom:30px;
+
+right:-70px;
+
+animation:move 2s linear infinite;
+
+}
+
+#obstacle img{
+
+width:55px;
+
+height:55px;
+
+}
+
+
+
+@keyframes move{
+
+
+from{
+
+right:-60px;
+
+}
+
+
+to{
+
+right:900px;
+
+}
+
+
+}
+
+
+
+
+#score{
+
+    position:absolute;
+
+    top:15px;
+
+    right:20px;
+
+    color:#00ffff;
+
+    font-size:20px;
+
+}
+#ground{
+
+    position:absolute;
+
+    bottom:0;
+
+    width:200%;
+
+    height:60px;
+
+    background:url("assets/ground.png");
+
+    background-repeat:repeat-x;
+
+    background-size:auto 60px;
+
+    animation:groundMove 5s linear infinite;
+
+}
+
+@keyframes groundMove{
+
+from{
+
+transform:translateX(0);
+
+}
+
+to{
+
+transform:translateX(-50%);
+
+}
+
+}
