@@ -1,8 +1,8 @@
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&height=250&text=VIGNESH%20M&fontSize=55&fontColor=00F5FF&color=0:050816,100:00F5FF&animation=fadeIn"/>
+</p>
 <div align="center">
-
-# 👋 Hi, I'm VIGNESH M
-
-### ⚡ ECE Engineer | Embedded Systems Developer
+## ⚡ ECE Engineer | Embedded Systems Developer ##
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=00F5FF&center=true&vCenter=true&width=700&lines=Embedded+Systems;IoT+Developer;ARM+%7C+AI+%7C+Hardware;Building+Real+World+Projects" />
 
