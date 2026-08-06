@@ -39,15 +39,21 @@
 - 🎮 Embedded Runner Game
 
 ---
+<div align="center">
 
-## 🎮 Play My Game
-
-<p align="center">
+# 🎮 VIGNESH RUNNER
 
 <a href="https://vignessh21.github.io/embedded-runner-game/">
+<img src="https://img.shields.io/badge/▶️%20PLAY%20NOW-00F5FF?style=for-the-badge"/>
+</a>
 
-<img src="https://img.shields.io/badge/🎮%20PLAY%20EMBEDDED%20RUNNER-00F5FF?style=for-the-badge&logo=github&logoColor=black"/>
+<br><br>
 
+<a href="https://vignessh21.github.io/embedded-runner-game/">
+<img src="game-preview.gif" width="800"/>
+</a>
+
+</div>
 </a>
 
 </p>
